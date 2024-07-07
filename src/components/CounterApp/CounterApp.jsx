@@ -15,7 +15,7 @@ const CounterApp = () => {
                 </button>
                 <button
                     className='decrement'
-                    onClick={() => setCount((count) => count + 1)}
+                    onClick={() => setCount((count) => count - 1)}
                 >
                     Decrement
                 </button>
